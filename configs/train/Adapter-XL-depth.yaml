@@ -1,0 +1,61 @@
+model:
+  params:
+    adapter_config:
+      name: depth
+      target: Adapter.models.adapters.Adapter_XL
+      params:
+        cin: 256
+        channels: [320, 640, 1280, 1280]
+        nums_rb: 2
+        ksize: 1
+        sk: true
+        use_conv: false
+      pretrained: /mnt/nfs/file_server/public/mingjiahui/experiments/T2IAdapter-sdxl/test3-160K/chenckpoint/e1-i10000.ckpt  # checkpoints/adapter-xl-sketch.pth
+data:
+  target: dataset.dataset_laion.WebDataModuleFromConfig_Laion_Lexica
+  params:
+    #    tar_base1: "/group/30042/public_datasets/LAION_6plus"
+    #    tar_base2: "/group/30042/public_datasets/RestoreData/Lexica/WebDataset"
+    num_workers: 1      # 8
+    multinode: True
+    train:
+      batch_size: 2
+      shuffle: True
+      data_json: './data/train_data_v2_0.json'
+      #      shards1: 'train_{00000..00006}/{00000..00171}.tar'
+      #      shards2: 'lexica-{000000..000099}.tar'
+      #      shards1_prob: 0.7
+      #      shards2_prob: 0.3
+      #      shuffle: 10000
+      #      image_key: jpg
+      image_transforms:
+      - target: torchvision.transforms.Resize
+        params:
+          size: 1024
+          interpolation: 3
+      - target: torchvision.transforms.CenterCrop   # torchvision.transforms.RandomCrop
+        params:
+          size: 1024
+      process:
+        target: dataset.utils.AddEqual_fp16
+
+    test:
+      batch_size: 1
+      shuffle: False
+      data_json: './data/overfit_data_v2_0.json'
+      image_transforms:
+        - target: torchvision.transforms.Resize
+          params:
+            size: 1024
+            interpolation: 3
+        - target: torchvision.transforms.CenterCrop
+          params:
+            size: 1024
+      process:
+        target: dataset.utils.AddEqual_fp16
+
+
+logger:
+#  print_freq: 1000 # 200
+  sample_freq: 10
+  checkpointing_steps: 10

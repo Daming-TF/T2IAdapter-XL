@@ -1,0 +1,1 @@
+/home/mingjiahui/anaconda3/envs/T2I/bin/python ./tool/debug.py

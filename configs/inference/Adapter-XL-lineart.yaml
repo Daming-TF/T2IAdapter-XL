@@ -1,0 +1,13 @@
+model:
+  params:
+    adapter_config:
+      name: linear
+      target: Adapter.models.adapters.Adapter_XL
+      params:
+        cin: 256
+        channels: [320, 640, 1280, 1280]
+        nums_rb: 2
+        ksize: 1
+        sk: true
+        use_conv: false
+      pretrained: /mnt/nfs/file_server/public/mingjiahui/experiments/T2IAdapter-sdxl/train-v1-1M-reso1024-lineart/chenckpoint/e0-i151500.ckpt # /mnt/nfs/file_server/public/mingjiahui/experiments/T2IAdapter-sdxl/test2-reso512-lineart-1M/chenckpoint/e0-i76500.ckpt

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8b0a9a4-d233-4dba-afac-e1449b4b8bbd" name="server:217">
+        <fileTransfer accessType="SFTP" host="118.193.96.217" port="22" sshConfigId="0f2ccaa9-13db-4469-a722-0ded0ee17020" sshConfig="mingjiahui@118.193.96.217:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="aa5dd354-94c5-4c10-aa9a-2a9432dfe919" name="test">
+        <fileTransfer accessType="SFTP" host="118.193.96.217" port="22" sshConfigId="0f2ccaa9-13db-4469-a722-0ded0ee17020" sshConfig="mingjiahui@118.193.96.217:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3cde9d19-ec38-46a4-a0a8-a36623f246cc" name="server:215">
+        <fileTransfer accessType="SFTP" host="118.193.96.215" port="22" sshConfigId="553d616f-3806-40f3-91f5-4006528af033" sshConfig="mingjiahui@118.193.96.215:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

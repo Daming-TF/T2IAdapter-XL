@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4e3ff15-77cc-4c11-8cd4-92ab022838e7" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/tool/diffuser/cover_lora/convert_original_stable_diffusion_to_diffusers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/T2IAdapter-XL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/T2IAdapter-XL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPAdapter/ip_adapter/ldm.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPAdapter/ip_adapter/ldm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/diffuser/conver_webui_to_diffuser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/diffuser/lora_load_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/diffuser/cover_lora/lora_load_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/download/down_from_huggingface.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/diffuser/download/down_from_huggingface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/download/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tool/diffuser/download/run.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UN7neW9p9Rhqs3S25Jk1RIXSJZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "F:/seekoo/project/T2IAdapter-XL/IPAdapter/experiment/exp_lora_img_inference_add_control_cond",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\seekoo\project\T2IAdapter-XL\IPAdapter\experiment\exp_lora_img_inference_add_control_cond" />
+      <recent name="F:\seekoo\project\T2IAdapter-XL\tool\webui\exp\ipadapter_add_lora" />
+      <recent name="F:\seekoo\project\T2IAdapter-XL\IPAdapter\experiment\exp_single_img_inference" />
+      <recent name="E:\seekoo\project\T2IAdapter-XL\IPAdapter\ip_adapter" />
+      <recent name="E:\seekoo\project\T2IAdapter-XL\IPAdapter\experiment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\seekoo\project\T2IAdapter-XL\tool\diffuser" />
+      <recent name="F:\seekoo\project\T2IAdapter-XL\tool\diffuser\cover_lora" />
+      <recent name="E:\seekoo\project\T2IAdapter-XL\IPAdapter\experiment\exp_diff_between_base_and_plus" />
+      <recent name="F:\seekoo\project\T2IAdapter-XL\tool\webui" />
+      <recent name="E:\seekoo\project\T2IAdapter-XL\IPAdapter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.debug">
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T2IAdapter-XL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_depth" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="T2I-Adapter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="4" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/mingjiahui/project/T2I-Adapter-XL" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_depth.py" />
+      <option name="PARAMETERS" value="--pretrained_model_name_or_path=/mnt/nfs/file_server/public/lipengxiang/sdxl_1_0 --output_dir=/mnt/nfs/file_server/public/mingjiahui/experiments/T2IAdapter-sdxl/test-overfit --config=configs/train/Adapter-XL-depth-overfit.yaml --mixed_precision=&quot;fp16&quot; --resolution=1024 --learning_rate=1e-5 --max_train_steps=60000 --gradient_accumulation_steps=1 --report_to=&quot;wandb&quot; --seed=42 --num_train_epochs 60000 --debug" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.debug" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4e3ff15-77cc-4c11-8cd4-92ab022838e7" name="Changes" comment="" />
+      <created>1692768352672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692768352672</updated>
+      <workItem from="1692768354958" duration="4000" />
+      <workItem from="1692768378886" duration="547000" />
+      <workItem from="1692802860963" duration="48350000" />
+      <workItem from="1693030959684" duration="3406000" />
+      <workItem from="1693034910609" duration="1268000" />
+      <workItem from="1693048180459" duration="1224000" />
+      <workItem from="1693124459266" duration="15179000" />
+      <workItem from="1693192739288" duration="208143000" />
+      <workItem from="1693790976861" duration="2974000" />
+      <workItem from="1693795122439" duration="33356000" />
+      <workItem from="1693840116814" duration="5190000" />
+      <workItem from="1693877864763" duration="28028000" />
+      <workItem from="1693928115842" duration="10505000" />
+      <workItem from="1693967702750" duration="19973000" />
+      <workItem from="1694050455678" duration="17766000" />
+      <workItem from="1694134562822" duration="10007000" />
+      <workItem from="1694232133569" duration="33306000" />
+      <workItem from="1694397266500" duration="4588000" />
+      <workItem from="1694485064581" duration="635000" />
+      <workItem from="1694572603176" duration="17798000" />
+      <workItem from="1694613970812" duration="1280000" />
+      <workItem from="1694615275716" duration="10064000" />
+      <workItem from="1694656155621" duration="2976000" />
+      <workItem from="1694670123093" duration="1215000" />
+      <workItem from="1694671607073" duration="7302000" />
+      <workItem from="1694690974049" duration="16192000" />
+      <workItem from="1694742868293" duration="8257000" />
+      <workItem from="1694853543111" duration="51423000" />
+      <workItem from="1695052180372" duration="11247000" />
+      <workItem from="1695087981772" duration="60519000" />
+      <workItem from="1695261672317" duration="5309000" />
+      <workItem from="1695267436274" duration="12328000" />
+      <workItem from="1695284876934" duration="3931000" />
+      <workItem from="1695288856943" duration="652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/webui/sd1_5-control_test.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tool/visual_util/image_concat.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/T2I_Adapter_XL$train_depth.coverage" NAME="train_depth Coverage Results" MODIFIED="1692932342007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T2IAdapter_XL$debug.coverage" NAME="debug 覆盖结果" MODIFIED="1693423788818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+  </component>
+</project>

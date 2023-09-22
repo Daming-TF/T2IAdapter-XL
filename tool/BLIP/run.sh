@@ -1,0 +1,1 @@
+/home/mingjiahui/anaconda3/envs/T2I/bin/python auto_create_caption.py

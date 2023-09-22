@@ -1,0 +1,8 @@
+torch==2.0.1
+diffusers==0.19.3
+omegaconf
+transformers
+datasets
+pytorch_lightning
+gradio
+accelerate
